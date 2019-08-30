@@ -30,4 +30,3 @@ end
 num_students.times do |i|
   puts "#{student_names[i]} #{student_ids[i]} #{student_emails[i]}"
 end
-
