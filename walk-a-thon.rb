@@ -52,4 +52,9 @@ else
     print "No... :( Maybe next year..."
 end
 
+#option if the goal was not met
+if total_amount < earning_goal
+    missed_amount = (earning_goal-total_amount)
+    print "\nThe goal was missed by $%0.2f." % missed_amount
+end
 
